@@ -46,3 +46,22 @@ body {
     margin: 0;
   }
   
+  /* Resto del código CSS */
+
+#bio {
+    display: flex;
+    align-items: center;
+  }
+  
+  #bio img {
+    width: 100px; /* Ajusta el tamaño de la imagen según tus preferencias */
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .bio-content {
+    flex-grow: 1;
+  }
+  
+  /* Resto del código CSS */
+  
