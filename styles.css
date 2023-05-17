@@ -24,15 +24,12 @@ body {
     margin-top: 0;
   }
   
-  ul {
+  /* ul {
     list-style: none;
     padding: 0;
   }
-  
-  li {
-    margin-bottom: 20px;
-  }
-  
+   */
+
   footer {
     background-color: #0d1534;
     padding: 10px;
@@ -51,6 +48,7 @@ body {
 #bio {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
   
   #bio img {
@@ -61,17 +59,44 @@ body {
   
   .bio-content {
     flex-grow: 1;
+    max-width: 450px;
+    text-align: justify;
+    
   }
   
   /* Resto del código CSS */
   
   /* Resto del código CSS */
 
+
 #redes-sociales img {
     width: 30px; /* Ajusta el tamaño de los logos según tus preferencias */
     height: 30px;
     margin-right: 10px;
+    
   }
   
   /* Resto del código CSS */
+  
+  #educacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #redes-sociales {
+    text-align: center;
+  }
+  
+  #redes-sociales ul {
+    display: inline-block;
+    padding: 0;
+  }
+  
+  #redes-sociales li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
   
